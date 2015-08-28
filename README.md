@@ -4,7 +4,7 @@ Nautilus extension for sending files to devices connected via KDEConnect.
 
 KDE Connect is a service that connects your Android device with your Linux PC via Wi-Fi, enabling many features like shared clipboard, notification syncing, file sharing and media playback control. This extension provides file sharing support in Nautilus via context menu (right-click menu).
 
-[Screenshot](./screenshot.png)
+![Screenshot](./screenshot.png)
 
 Features
 ---------
