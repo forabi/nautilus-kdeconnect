@@ -14,7 +14,6 @@ def send_files(files, device_id, device_name):
     # return results
 
 def get_available_devices():
-    # return [ {"name": "Xperia Z", "id": "stuff"} ]
     devices_a=[]
     devices = check_output(["kdeconnect-cli", "-a"]).strip().split("\n")
     devices.pop()
