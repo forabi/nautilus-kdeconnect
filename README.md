@@ -24,7 +24,7 @@ In addition to [KDE Connect](https://community.kde.org/KDEConnect), this extensi
 
 *nautilus-kdeconnect* can also be used with the Nemo file manager:
 
-1. On your PC, install the `kdeconnect`, `kde-cli-tools`, `python-nemo` and `libnotify-bin` packages.
+1. On your PC, install the `kdeconnect`, `python-nemo` and `libnotify-bin` packages.
      * If you are using some Debian-based distribution that is not *Linux Mint*, you won't find the `python-nemo` package in the software repositories:
         1. Download and install the [`python-nemo` package](http://packages.linuxmint.com/pool/backport/n/nemo-python/) from the *Linux Mint* package archive site.
         2. Run `sudo ln -s /usr/lib/nemo/extensions-3.0/libnemo-python.so /usr/lib/x86_64-linux-gnu/nemo/extensions-3.0/` to create a compatibility symlink to newly installed the extension file.
