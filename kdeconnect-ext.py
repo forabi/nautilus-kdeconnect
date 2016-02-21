@@ -1,5 +1,11 @@
-from gi.repository import Nautilus, GObject
+import importlib
+
+from gi.repository import GObject
 from kdeconnect import send_files, get_available_devices
+
+TARGET   = "%%TARGET%%".title()
+Nautilus = importlib.import_module("gi.repository.{}".format(TARGET))
+
 
 class KDEConnectExtension(GObject.GObject, Nautilus.MenuProvider):
     def __init__(self):
