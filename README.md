@@ -8,7 +8,7 @@ KDE Connect is a service that connects your Android device with your Linux PC vi
 
 Features
 ---------
-* Send any number of files at once. _(Directories are not supported currently)_.
+* Send any number of files at once. _(Directories are also supported and sent as ZIPs)_.
 * Send files to any connected device.
 
 Installation
