@@ -13,9 +13,19 @@ Features
 
 Installation
 -------------
-In addition to [KDE Connect](https://community.kde.org/KDEConnect), this extension requires [nautilus-python](https://wiki.gnome.org/Projects/NautilusPython) and libnotify. Following are the instructions for Arch Linux:
+In addition to [KDE Connect](https://community.kde.org/KDEConnect), this extension requires [nautilus-python](https://wiki.gnome.org/Projects/NautilusPython) and libnotify. 
+
+## Instructions for Arch Linux
 
 1. On your PC, install `kdeconnect-git`, `kde-cli-tools`, `python2-nautilus` and `libnotify`.
+2. Install the KDE Connect companion app for Android, available on [Google Play](https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp) and [F-Droid](https://f-droid.org/repository/browse/?fdid=org.kde.kdeconnect_tp).
+3. Launch KDE Connect on your PC and on your Android device. Pair the two devices and enable the sharing plugin.
+4. Clone this repository and install the extension: `git clone https://github.com/forabi/nautilus-kdeconnect && make -C nautilus-kdeconnect install`.
+
+## Instructions for Fedora
+
+1. On your PC, install `kdeconnectd`, `kde-cli-tools`, `nautilus-python-devel`, `libnotify`
+ and `libnotify-devel`.
 2. Install the KDE Connect companion app for Android, available on [Google Play](https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp) and [F-Droid](https://f-droid.org/repository/browse/?fdid=org.kde.kdeconnect_tp).
 3. Launch KDE Connect on your PC and on your Android device. Pair the two devices and enable the sharing plugin.
 4. Clone this repository and install the extension: `git clone https://github.com/forabi/nautilus-kdeconnect && make -C nautilus-kdeconnect install`.
